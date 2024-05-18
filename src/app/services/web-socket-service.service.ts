@@ -15,7 +15,7 @@ export class WebSocketServiceService {
   constructor() { }
 
   initconnectionSocket(){
-    const URL = "//localhost:8080/game-socket";
+    const URL = "//ecipixlesspring.azurewebsites.net/game-socket";
     const socket = new SockJS(URL);
     this.stompClient = Stomp.over(socket); 
   }

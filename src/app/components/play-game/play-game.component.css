@@ -1,0 +1,43 @@
+/* Estilos para el canvas */
+canvas {
+    position: absolute;
+    margin-left: 30px;
+    font-weight: bold; /* Letras en negrita */
+}
+
+/* Estilos para la tabla de líderes */
+.leaderboard-container {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.leaderboard-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 12px;
+    text-align: center;
+    font-weight: bold; /* Letras en negrita */
+}
+
+/* Establecer color de fondo para la fila de títulos */
+.leaderboard-table th {
+    background-color: #f2f2f2; /* Color de fondo opaco para la fila de títulos */
+    color: black;
+}
+
+.leaderboard-table tr:hover {
+    background-color: #ddd;
+}
+
+.leaderboard-no-players {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold; /* Letras en negrita */
+}
+

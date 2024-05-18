@@ -9,7 +9,7 @@ import { Player } from '../classes/player';
 })
 export class GameService {
 
-  private URL = "http://localhost:8080/api/eciPixelsGame";
+  private URL = "http://ecipixlesspring.azurewebsites.net/api/eciPixelsGame";
 
   currentPlayer:Player;
 
